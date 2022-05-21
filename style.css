@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.container{
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 30px;
+    
+   
+}
+
+.item1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+}
+.numero{
+    background-color: rgb(224, 224, 224);
+    padding: 5px 10px;
+    text-align: center;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+
+.mini-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bran{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bran img{
+    width: 30px;
+}
+.reply{
+    color: rgb(93, 49, 255);
+    font-weight: 500;
+}
+h5{
+    color: #949494;
+}
+.content{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.linea{
+    width: 35%;
+    height: 100%;
+    margin: a auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+hr{
+    width: 2px;
+    height: 370px;
+    color: #f2f2f2;
+}
+.item1{
+    margin-bottom: 10px;
+}
+.mini-header2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    -webkit-box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 27px -10px rgba(0,0,0,0.75);
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(93, 49, 255);
+    border-radius: 5px;
+    color: #fff;
+}
+.btn1{
+    padding: 3px 8px;
+    background-color: rgb(93, 49, 255);
+    border-radius: 5px;
+    font-size: 13px;
+    color: #fff;
+}
+
+.mini-header2 .bran{
+    justify-content: flex-start;
+}
+.mini-header2 .bran h4{
+    margin-left: 30px;
+}
